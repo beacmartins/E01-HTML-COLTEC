@@ -1,29 +1,17 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-}
-
-header{
-    height: 25px;
-    background-color: rgb(185, 4, 4);
-    
-}
-
-main{ 
-    width: 50vw;
-    margin: auto;
-   
+    font-family: 'Open Sans'; 
 }
 
 h1 {
-    font-weight: bolder;
-    font-size: 50px;
+    font-family: Regular 400;
+    font-size: 25px;
     color: black;
 }
 
@@ -33,43 +21,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: rgb(185, 4, 4);
+    color: purple;
 }
 
-h2 {
-    font-weight: bold;
-    color: rgb(165, 163, 163);
-    text-align: justify;
-}
-
-h3{
-    font-size: 15px;
-}
-
-img {
-    width: 750px;
-    height: 750;
-}
-
-figcaption {
-    font-size: 13px;
-    color: rgb(78, 77, 77);
-}
-
-p {
-    text-align: justify;
-    font-size: 20px;
-}
-
-span {
-    color: rgb(185, 4, 4);
-}
-
-footer {
-    background-color: rgb(185, 4, 4);
-    color: white;
-    font-weight: bold;
-    font-size: 10px;
-    display: flex;
-    justify-content: center;
-}
