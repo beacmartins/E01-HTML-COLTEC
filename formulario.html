@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div {
+            margin: 5px;
+        }
+
+        label {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Formulário de Cadastro</h1>
+
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <div> 
+                <label>Código</label>
+                <input type="number">
+            </div>
+            <div> 
+                <label>Nome</label>
+                <input type="text">
+            </div>
+            <div> 
+                <label>Senha</label>
+                <input type="password">
+            </div>
+            <div> <label>Sexo</label></div>
+                
+            <label>
+                    <input type="radio", name="status">
+                    Masculino
+                </label>
+            <label>
+                    <input type="radio", name="status">
+                    Feminino
+                </label>
+           <div>
+                <label>Cartão de Crédito</label>
+                    <div>
+                        <select name="credid-card" id="credid-card" multiple>
+                            <option>Mastercard</option>
+                            <option>Visa</option>
+                            <option>American Express</option>
+                        </select>
+                    </div>
+            </div>
+
+        </fieldset>
+        
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+
+           <div>
+                <label>Cargo:</label>
+                        <select name="cargo" id="cargo">
+                            <option>Analista Pleno</option>
+                            <option>Analista Júnior</option>
+                            <option>Analista Sênior</option>
+                        </select>
+            </div>
+            <div>
+                <label>Dados Pessoais:</label>
+                <label>
+                    <input type="checkbox">
+                    Fumante
+                </label>
+                <label>
+                    <input type="checkbox">
+                    Pratica Exercícios Físicos
+                </label>
+                <label>
+                    <input type="checkbox">
+                    Consome Bebida Alcoolica
+                </label>
+            </div>
+
+            <div> 
+                <label>Experiências Profissionais:</label>
+            </div>
+            <div>
+                <textarea id="story" name="story" placeholder="digite"></textarea>
+            </div>
+
+        </fieldset> 
+
+        <div>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Inserir">
+        </div>
+        
+    </form>
+
+</body>
+</html>
